@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "discord.js": "^12.5.3",
-    "jest": "^25.4.0"
+    "jest": "^25.4.0" 
+    
   }
 }
