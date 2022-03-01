@@ -40,6 +40,7 @@ client.on('message', async (msg) => {
         const reply = `\`\`\`!r coon/!raccoon - Gives you a random raccoon picture \n !raccoon bomb / !r coon bomb - Gives you a lot of random raccoon pictures =P\n !r fact - Gives you a random raccoon fact\`\`\`` 
         msg.channel.send(reply)
     }
+    console.log(`${message.author} acabou de me usar dizendo ${message.content}`)
     msg.react('🦝')
 });
 
