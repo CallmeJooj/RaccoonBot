@@ -1,7 +1,7 @@
 {
   "name": "crescer-exercicio-discord",
   "scripts": {
-    "start": "node index.js",
+    "start": "babel-node index.js",
     "test": "jest"
   },
   "devDependencies": {
