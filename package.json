@@ -4,6 +4,7 @@
     "start": "node index.js",
     "test": "jest"
   },
+  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/node": "^7.6.2",
