@@ -29,7 +29,10 @@ client.on('message', async (msg) => {
     else 
     if (["!r coon bomb", "!raccoon bomb"].includes(msg.content)) {
         const reply = (await myAPI('coons')).map(reply => reply.image)
-        msg.channel.send(msg.author, {files: [...reply]})
+        msg.channel.send(msg.author) 
+        reply.array.forEach(reply => {
+            msg.channel.send({files: [reply]})
+        });
     }
     else 
     if(msg.content === "!r fact"){
