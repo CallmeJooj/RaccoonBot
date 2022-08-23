@@ -1,4 +1,4 @@
-# RaconBot
+# RaccoonBot
 
 Simple Discord Bot that sends random Raccoon Pictures on command call
 
