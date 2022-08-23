@@ -50,4 +50,4 @@ client.on('message', async (msg) => {
     }
 });
 
-client.login('OTQ3MTg0NTk0NjQ0NTEyODM4.YhpkZQ.Qx0OaZxdp2jD5OS00zu4XFShDYE')
+client.login('token')
